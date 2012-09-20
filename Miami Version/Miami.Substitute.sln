@@ -1,0 +1,163 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bll.miami.substitute", "bll.miami.substitute\bll.miami.substitute.csproj", "{99DCBD1F-D2B3-402F-A9B9-528DCB195950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dal.miami.substitute", "dal.miami.substitute\dal.miami.substitute.csproj", "{0F270037-5969-4FFB-894C-2A786141B87E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dal.miami.substitute.generated", "dal.miami.substitute.generated\dal.miami.substitute.generated.csproj", "{D91BA2B6-FB01-4C2A-A6E2-4A4F91623961}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\web.miami.substitute\", "web.miami.substitute", "{4162AC0E-7A07-4116-859F-DECEF5681644}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		ProjectReferences = "{99DCBD1F-D2B3-402F-A9B9-528DCB195950}|bll.miami.substitute.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/web.miami.substitute"
+		Debug.AspNetCompiler.PhysicalPath = "web.miami.substitute\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\web.miami.substitute\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "true"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/web.miami.substitute"
+		Release.AspNetCompiler.PhysicalPath = "web.miami.substitute\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\web.miami.substitute\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "true"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61338"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\web.miami.substitute.master\", "..\4work\miami\web.miami.substitute.master", "{D8E4B607-8D5B-4F7B-8446-9995FAADE567}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		ProjectReferences = "{99DCBD1F-D2B3-402F-A9B9-528DCB195950}|bll.miami.substitute.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/web.miami.substitute.master"
+		Debug.AspNetCompiler.PhysicalPath = "web.miami.substitute.master\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\web.miami.substitute.master\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "true"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/web.miami.substitute.master"
+		Release.AspNetCompiler.PhysicalPath = "web.miami.substitute.master\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\web.miami.substitute.master\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "true"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61341"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{46DBDA97-9F48-4B09-88CC-2376A6EEB0B4}"
+	ProjectSection(SolutionItems) = preProject
+		bin\lib.micajah.common.dll = bin\lib.micajah.common.dll
+		bin\Micajah.ErrorTrackerHelper2.dll = bin\Micajah.ErrorTrackerHelper2.dll
+		bin\Microsoft.Practices.EnterpriseLibrary.Common.dll = bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+		bin\Microsoft.Practices.EnterpriseLibrary.Data.dll = bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+		bin\Microsoft.Practices.ObjectBuilder.dll = bin\Microsoft.Practices.ObjectBuilder.dll
+		bin\NCI.EasyObjects.dll = bin\NCI.EasyObjects.dll
+		bin\RadCalendar.Net2.dll = bin\RadCalendar.Net2.dll
+		bin\RadComboBox.Net2.dll = bin\RadComboBox.Net2.dll
+		bin\RadEditor.Net2.dll = bin\RadEditor.Net2.dll
+		bin\RadGrid.Net2.dll = bin\RadGrid.Net2.dll
+		bin\RadInput.Net2.dll = bin\RadInput.Net2.dll
+		bin\RadTreeView.Net2.dll = bin\RadTreeView.Net2.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.kc.micajah.com:444/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = bll.miami.substitute\\bll.miami.substitute.csproj
+		SccProjectName1 = bll.miami.substitute
+		SccLocalPath1 = bll.miami.substitute
+		SccProjectUniqueName2 = dal.miami.substitute\\dal.miami.substitute.csproj
+		SccProjectName2 = dal.miami.substitute
+		SccLocalPath2 = dal.miami.substitute
+		SccProjectUniqueName3 = dal.miami.substitute.generated\\dal.miami.substitute.generated.csproj
+		SccProjectName3 = dal.miami.substitute.generated
+		SccLocalPath3 = dal.miami.substitute.generated
+		SccWebProject4 = true
+		SccProjectUniqueName4 = web.miami.substitute
+		SccProjectName4 = web.miami.substitute
+		SccLocalPath4 = web.miami.substitute
+		SccProjectEnlistmentChoice4 = 2
+		SccWebProject5 = true
+		SccProjectUniqueName5 = ..\\4work\\miami\\web.miami.substitute.master
+		SccProjectName5 = web.miami.substitute.master
+		SccLocalPath5 = C:\\Users\\Hex\\Downloads\\Documents\\Visual\u0020Studio\u00202005\\Projects\\4work\\miami\\web.miami.substitute.master\\
+		SccProjectEnlistmentChoice5 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99DCBD1F-D2B3-402F-A9B9-528DCB195950}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{99DCBD1F-D2B3-402F-A9B9-528DCB195950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DCBD1F-D2B3-402F-A9B9-528DCB195950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DCBD1F-D2B3-402F-A9B9-528DCB195950}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{99DCBD1F-D2B3-402F-A9B9-528DCB195950}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{99DCBD1F-D2B3-402F-A9B9-528DCB195950}.Release|.NET.ActiveCfg = Release|Any CPU
+		{99DCBD1F-D2B3-402F-A9B9-528DCB195950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DCBD1F-D2B3-402F-A9B9-528DCB195950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99DCBD1F-D2B3-402F-A9B9-528DCB195950}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{99DCBD1F-D2B3-402F-A9B9-528DCB195950}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0F270037-5969-4FFB-894C-2A786141B87E}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{0F270037-5969-4FFB-894C-2A786141B87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F270037-5969-4FFB-894C-2A786141B87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F270037-5969-4FFB-894C-2A786141B87E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0F270037-5969-4FFB-894C-2A786141B87E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0F270037-5969-4FFB-894C-2A786141B87E}.Release|.NET.ActiveCfg = Release|Any CPU
+		{0F270037-5969-4FFB-894C-2A786141B87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F270037-5969-4FFB-894C-2A786141B87E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F270037-5969-4FFB-894C-2A786141B87E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0F270037-5969-4FFB-894C-2A786141B87E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D91BA2B6-FB01-4C2A-A6E2-4A4F91623961}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{D91BA2B6-FB01-4C2A-A6E2-4A4F91623961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91BA2B6-FB01-4C2A-A6E2-4A4F91623961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91BA2B6-FB01-4C2A-A6E2-4A4F91623961}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D91BA2B6-FB01-4C2A-A6E2-4A4F91623961}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D91BA2B6-FB01-4C2A-A6E2-4A4F91623961}.Release|.NET.ActiveCfg = Release|Any CPU
+		{D91BA2B6-FB01-4C2A-A6E2-4A4F91623961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91BA2B6-FB01-4C2A-A6E2-4A4F91623961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D91BA2B6-FB01-4C2A-A6E2-4A4F91623961}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D91BA2B6-FB01-4C2A-A6E2-4A4F91623961}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4162AC0E-7A07-4116-859F-DECEF5681644}.Debug|.NET.ActiveCfg = Debug|.NET
+		{4162AC0E-7A07-4116-859F-DECEF5681644}.Debug|.NET.Build.0 = Debug|.NET
+		{4162AC0E-7A07-4116-859F-DECEF5681644}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{4162AC0E-7A07-4116-859F-DECEF5681644}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{4162AC0E-7A07-4116-859F-DECEF5681644}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{4162AC0E-7A07-4116-859F-DECEF5681644}.Release|.NET.ActiveCfg = Debug|.NET
+		{4162AC0E-7A07-4116-859F-DECEF5681644}.Release|.NET.Build.0 = Debug|.NET
+		{4162AC0E-7A07-4116-859F-DECEF5681644}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{4162AC0E-7A07-4116-859F-DECEF5681644}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{4162AC0E-7A07-4116-859F-DECEF5681644}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{D8E4B607-8D5B-4F7B-8446-9995FAADE567}.Debug|.NET.ActiveCfg = Debug|.NET
+		{D8E4B607-8D5B-4F7B-8446-9995FAADE567}.Debug|.NET.Build.0 = Debug|.NET
+		{D8E4B607-8D5B-4F7B-8446-9995FAADE567}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{D8E4B607-8D5B-4F7B-8446-9995FAADE567}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{D8E4B607-8D5B-4F7B-8446-9995FAADE567}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{D8E4B607-8D5B-4F7B-8446-9995FAADE567}.Release|.NET.ActiveCfg = Debug|.NET
+		{D8E4B607-8D5B-4F7B-8446-9995FAADE567}.Release|.NET.Build.0 = Debug|.NET
+		{D8E4B607-8D5B-4F7B-8446-9995FAADE567}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{D8E4B607-8D5B-4F7B-8446-9995FAADE567}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{D8E4B607-8D5B-4F7B-8446-9995FAADE567}.Release|Mixed Platforms.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

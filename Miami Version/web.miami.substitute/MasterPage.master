@@ -1,0 +1,126 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Miami.Substitute.Web.MasterPage" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Header" runat="server">
+    <title></title>
+    <style type="text/css">
+	body {
+		margin:0;
+		padding:0;
+		height:100%;
+	}
+	
+	TABLE.Mp_Dm TD
+	{	
+	    vertical-align: middle !important;
+	}
+	
+	TABLE.Mp_Dm TD DIV
+	{
+	    padding-bottom: 0px !important;
+	    padding-left: 0px !important;
+	    padding-right: 0px !important;
+	    padding-top: 0px !important;
+	}	
+	
+	#container {
+		min-height:100%;
+		position:relative;
+	}
+	#header {
+		padding:0px;
+	}
+	#body {
+		padding:0px;
+		padding-bottom:60px;	/* Height of the footer */
+	}
+	#footer {
+		position:absolute;
+		bottom:0;
+		width:100%;
+		height:60px;			/* Height of the footer */
+	}
+	/* other non-essential CSS */
+	#header p,
+	#header h1 {
+		margin:0;
+		padding:0px 0 0 10px;
+	}
+	#footer p {
+		margin:0;
+		padding:10px;
+	}
+	</style>
+    <!--[if lt IE 7]>
+	<style media="screen" type="text/css">
+	#container {
+		height:100%;
+	}
+	</style>
+	<![endif]-->
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" />
+        <div style="position: absolute; width: 146px; height: 76px; left: 5px">
+            <a href="Default.aspx">
+                <img style="border-width: 0px" src="Images/spacer.gif" width="146px" height="76px" /></a>
+        </div>
+        <div id="KbDiv" style="position: absolute; text-align: right; width: 100%; height: 20px;
+            right: 160px; top: 3px">
+            <asp:HyperLink runat="server" ID="videoLink" Visible="false" NavigateUrl="#" Text="Page Video"
+                Font-Size="12px" ForeColor="#095A83" /><asp:Literal runat="server" Visible="false"
+                    ID="videoLiteral" Text="&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;" />
+            <asp:HyperLink runat="server" ID="helpLink" NavigateUrl="#" Text="Page Help [?]"
+                Font-Size="12px" ForeColor="#095A83" />&nbsp;&nbsp;&nbsp;&nbsp;|
+        </div>
+        <telerik:RadToolTip ID="videoRadToolTip" runat="server" Visible="false" TargetControlID="videoLink"
+            RelativeTo="Element" ManualClose="true" ShowEvent="onclick" Position="bottomLeft">
+            <asp:Literal runat="server" ID="embeddedVideo" Visible="false" />
+        </telerik:RadToolTip>
+
+        <script type="text/javascript">
+        
+        function clientHide(sender, eventArgs)
+        {
+           __doPostBack('__Page', ''); 
+        }
+        
+        function Mp_GetPopupPositionX(width) {
+    var w = (window.screenLeft != undefined ? window.screenLeft : window.screenX) + document.body.clientWidth;
+    return ((w && width) ? (w - width - 1) : 600);
+}
+
+function Mp_GetPopupPositionY(event) {
+    if (!event) event = window.event;
+    var h = event.screenY;
+    return (h ? (h - 90) : 100);
+}
+
+var uservoiceOptions = {
+  /* required */
+  key: 'miamisubstitute',
+  host: 'miamisubstitute.uservoice.com', 
+  forum: '69227',
+  showTab: true,  
+  /* optional */
+  alignment: 'right',
+  background_color:'black', 
+  text_color: 'white',
+  hover_color: '#06C',
+  lang: 'en'
+};
+
+function _loadUserVoice() {
+  var s = document.createElement('script');
+  s.setAttribute('type', 'text/javascript');
+  s.setAttribute('src', ("https:" == document.location.protocol ? "https://" : "http://") + "cdn.uservoice.com/javascripts/widgets/tab.js");
+  document.getElementsByTagName('head')[0].appendChild(s);
+}
+_loadSuper = window.onload;
+window.onload = (typeof window.onload != 'function') ? _loadUserVoice : function() { _loadSuper(); _loadUserVoice(); };
+        </script>
+
+        <asp:ContentPlaceHolder ID="PageBody" runat="server" />
+    </form>
+</body>
+</html>
